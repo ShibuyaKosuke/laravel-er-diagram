@@ -1,0 +1,28 @@
+{
+    "name": "shibuyakosuke/laravel-er-diagram",
+    "description": "Output ER Diagram command",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ShibuyaKosuke\\LaravelErDiagram\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ShibuyaKosuke",
+            "email": "github@shibuyakosuke.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "laravel/framework": ">=8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ShibuyaKosuke\\LaravelErDiagram\\Providers\\ErDiagramServiceProvider"
+            ]
+        }
+    }
+}
