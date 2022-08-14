@@ -5,7 +5,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "ShibuyaKosuke\\LaravelErDiagram\\": "src/"
+            "ShibuyaKosuke\\LaravelErDiagram\\": "src/",
+            "ShibuyaKosuke\\LaravelErDiagram\\Test\\": "tests/"
         }
     },
     "authors": [
