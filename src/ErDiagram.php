@@ -35,7 +35,7 @@ class ErDiagram
             return $columnUsage->relation;
         })->implode("\n    ");
 
-        $output = sprintf("erDiagram\n%s\n    %s", $class_diagrams, $usages);
+        $output = sprintf("erDiagram\n%s\n\n    %s", $class_diagrams, $usages);
         \Storage::put('er.md', $output);
     }
 }
