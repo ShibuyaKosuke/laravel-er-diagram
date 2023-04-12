@@ -6,6 +6,10 @@ use Illuminate\Console\Command;
 use ShibuyaKosuke\LaravelErDiagram\ErDiagram;
 use ShibuyaKosuke\LaravelErDiagram\Models\Table;
 
+/**
+ * Class ErOutputCommand
+ * @package ShibuyaKosuke\LaravelErDiagram\Console
+ */
 class ErOutputCommand extends Command
 {
     /**

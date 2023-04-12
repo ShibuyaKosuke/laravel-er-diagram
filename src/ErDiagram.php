@@ -6,6 +6,10 @@ use Illuminate\Database\Eloquent\Collection;
 use ShibuyaKosuke\LaravelErDiagram\Models\KeyColumnUsage;
 use ShibuyaKosuke\LaravelErDiagram\Models\Table;
 
+/**
+ * Class ErDiagram
+ * @package ShibuyaKosuke\LaravelErDiagram
+ */
 class ErDiagram
 {
     /**

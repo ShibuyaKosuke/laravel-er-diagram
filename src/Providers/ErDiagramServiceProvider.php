@@ -5,6 +5,10 @@ namespace ShibuyaKosuke\LaravelErDiagram\Providers;
 use Illuminate\Support\ServiceProvider;
 use ShibuyaKosuke\LaravelErDiagram\Console\ErOutputCommand;
 
+/**
+ * Class ErDiagramServiceProvider
+ * @package ShibuyaKosuke\LaravelErDiagram\Providers
+ */
 class ErDiagramServiceProvider extends ServiceProvider
 {
     /**

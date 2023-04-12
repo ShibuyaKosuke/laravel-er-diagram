@@ -6,6 +6,10 @@ use Orchestra\Testbench\TestCase as OrchestraTestCase;
 use ShibuyaKosuke\LaravelJetAdminlte\Providers\EventServiceProvider;
 use ShibuyaKosuke\LaravelJetAdminlte\Providers\ServiceProvider;
 
+/**
+ * Class TestCase
+ * @package ShibuyaKosuke\LaravelJetAdminlte\Test
+ */
 abstract class TestCase extends OrchestraTestCase
 {
     /**
